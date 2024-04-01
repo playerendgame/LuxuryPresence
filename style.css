@@ -179,6 +179,14 @@ input[type=search] {
 
 }
 
+.section3Container ul[class="lead"]{
+
+    font-weight:normal;
+    color: rgb(0, 32, 77)
+
+}
+
+
 .stepsMainContainer{
 
     background-image: url('./images/section4images/pic1.jpg');
