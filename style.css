@@ -181,7 +181,7 @@ input[type=search] {
 
 .stepsMainContainer{
 
-    background-image: url('/images/section4images/pic1.jpg');
+    background-image: url('./images/section4images/pic1.jpg');
     width: 100%;
     height: auto;
     background-repeat: no-repeat;
@@ -254,7 +254,7 @@ input[type=search] {
 
 .section7mainContainer{
 
-    background-image: url('/images/section7images/pic1.jpg');
+    background-image: url('./images/section7images/pic1.jpg');
     width: 100%;
     height: auto;
     background-repeat: no-repeat;
