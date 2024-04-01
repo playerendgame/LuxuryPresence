@@ -1,0 +1,445 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+body{
+
+    height: auto;
+    width: auto;
+
+}
+
+.navbarContainer{
+
+    position:fixed;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    transition: all 0.5s ease;
+
+}
+
+.navbarItems{
+  
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-size:small;
+  font-weight: bold;
+  font-style: normal;
+  
+}
+
+
+.navbarItems a{
+
+position: relative;
+opacity: 0.75;
+}
+
+.navbarItems a::hover {
+opacity: 1;
+}
+
+.navbarItems a::before {
+transition: 300ms;
+height: 2px;
+content: "";
+position: absolute;
+background-color: #ffffff;
+}
+
+.navbarItems a::before {
+width: 0%;
+bottom: 10px;
+}
+
+.navbarItems a:hover::before {
+width: 100%;
+}
+
+
+  
+.coverContainer{
+
+    position: relative;
+
+}
+
+.video-container{
+
+    height: 600px;
+
+}
+
+.video-container video{
+
+    object-fit: cover;
+    filter: brightness(70%);
+
+}
+
+.content{
+
+    backdrop-filter: blur(20px);
+    padding: 20px;
+    border-radius: 20px;
+    width: 800px;
+    max-width: 100%;
+
+}
+
+.content h4{
+
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+
+}
+
+input[type=search] {
+
+    padding: 10px
+
+}
+
+.modalContent{
+
+    background-color: rgb(28, 39, 54);
+
+}
+
+.submitMessage{
+
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+
+}
+
+.submitInputs input{
+
+    border: none;
+    outline: none;
+
+}
+
+.submitInputs textarea{
+
+    border: none;
+    outline: none;
+
+}
+
+.checkbox input{
+
+    border:solid;
+   
+
+}
+
+.modalLeft{
+
+    background-image: url("./images/home.jpg");
+
+
+}
+
+.modalBody{
+
+    backdrop-filter: blur(50px);
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+
+.compMarketingContainer{
+
+    font-family: "Josefin Sans", sans-serif;
+
+
+}
+
+
+
+.compMarketingContainer p{
+
+  font-weight:normal;
+
+}
+
+.section3Container{
+
+    font-family: "Josefin Sans", sans-serif;
+
+}
+
+.section3Container p[class="lead"]{
+
+    font-weight:normal;
+    color: rgb(0, 32, 77)
+
+}
+
+.stepsMainContainer{
+
+    background-image: url('/images/section4images/pic1.jpg');
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Josefin Sans", sans-serif;
+   
+}
+
+.stepsContainer{
+
+    border-radius: 20px;
+    padding: 20px;
+
+}
+
+.stepsContainer div[class="card h-100"]{
+
+    backdrop-filter: blur(20px);
+    border-top-left-radius: 80px;
+    background-color: transparent;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+ 
+}
+
+.stepsContainer h2[class="display-4 text-center text-light"]{
+
+    font-weight: normal;
+  
+}
+
+.buyingProcessContainer{
+
+    font-family: "Josefin Sans", sans-serif;
+    color: rgb(0, 32, 77)
+
+}
+
+.buyingProcessContainer h2{
+
+    font-weight: normal;
+
+}
+
+.section6Container{
+
+    font-family: "Josefin Sans", sans-serif;
+    color: rgb(0, 32, 77)
+
+}
+
+.section6Container p[class="lead"]{
+
+ font-weight: normal;
+
+}
+
+.section6Container h4{
+
+    font-weight: normal;
+   
+}
+   
+.section6Container ul[class="lead"]{
+
+    font-weight: normal;
+   
+}
+
+.section7mainContainer{
+
+    background-image: url('/images/section7images/pic1.jpg');
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: normal;
+
+}
+
+.section7container{
+
+    padding: 20px;
+    backdrop-filter: blur(10px);
+
+}
+
+.section7container h4{
+
+    font-weight: normal;
+
+}
+
+.section7container h5{
+
+    color: rgb(0, 32, 77);
+    font-weight: bold;
+
+}
+
+.section7container p{
+
+    color: rgb(0, 32, 77);
+    font-weight: normal;
+
+}
+
+.section7container div[class="card"]{
+
+    border-radius: 20px;
+
+}
+
+
+.section8maincontainer{
+
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: normal;
+
+}
+
+.section8maincontainer p{
+
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: normal;
+
+}
+
+.section8maincontainer h2[class="h2 text-center"]{
+
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bold;
+
+}
+
+.section9maincontainer{
+
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: normal;
+
+}
+
+.section9maincontainer h2[class="h2 text-center"]{
+
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bold;
+
+}
+
+.section9maincontainer p{
+
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: normal;
+
+}
+
+.videoContentContainer{
+
+    position: relative;
+    overflow: hidden;
+
+}
+
+.droneShotMainContainer{
+
+    font-family: "Josefin Sans", sans-serif;
+    color: rgb(0, 32, 77);
+
+}
+
+.droneShotMainContainer h4{
+
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: normal;
+    
+}
+
+.droneShotMainContainer p{
+
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: normal;
+    
+}
+
+
+.playPauseButton{
+
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+
+}
+
+.workWithUsContainer{
+
+    background-image: url('./images/section10images/pic1.jpg');
+    padding: 50px;
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: normal;
+}
+
+
+.contactUsCol{
+
+    padding: 60px;
+    background-color: rgb(28, 39, 54);
+
+}
+
+.newsLetterCol{
+
+    padding: 60px;
+    backdrop-filter: blur(20px);
+    border-style: solid;
+ 
+    border-color: white;
+    border-width: 2px;
+
+}
+
+.luxuryFooterLink{
+
+    text-decoration: none;
+    color: black;  font-weight: bold;
+
+}
+
+.footerContainer{
+
+    background-color: rgb(247, 247, 247);
+    font-family: "Josefin Sans", sans-serif;
+    font-style: normal;
+
+}
+
+.footerLinks a{
+
+    font-size:small;
+
+}
+
+.companyProf h5{
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight:500;
+
+}
+
+
+.juliePar{
+
+    font-size: 17px;
+
+}
